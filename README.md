@@ -5,9 +5,9 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 - Romina Tuesta
 - Frida Dam
 
-# Nuestros segmentos Objetivos: 
-1. Personas con discapacidad visual
-2. Personas en silla de ruedas
+# Nuestros usuarios principales: 
+   1. Personas con discapacidad visual, aquellos que necesiten ayuda de terceros para poder desplazarse por la ciudad.
+   2. Personas en silla de ruedas, aquellos que no cuenten con movilidad corporal completa, por lo que necesiten lugares accesibles para sillas de ruedas.
 
 # Características de NaviTáctil:
 1. Ofrecemos experiencias personalizadas, en base a las necesidades de nuestros usuarios.
