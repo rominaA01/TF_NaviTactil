@@ -4,6 +4,7 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 #Autores: 
 - Romina Tuesta
 - Frida Dam
+- André La torre
 
 #Nuestros segmentos objetivos:
 1. Personas con discapacidad visual     2. Personas en silla de ruedas
