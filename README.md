@@ -11,9 +11,12 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 
 # Características de NaviTáctil:
 1. Ofrecemos experiencias personalizadas, en base a las necesidades de nuestros usuarios.
-2. Contamos con mapas interactivos e intuitivos
-3. Tenemos como principal prioridad las preferencias y necesidad de nuestros usuarios, por lo cual buscamos agilizar la busqueda de destinos para nuestros usuarios.
-4. Contamos con un Análisis inteligente que genera las mejores rutas para nuestros usuarios.
+   
+3. Contamos con mapas interactivos e intuitivos
+   
+5. Tenemos como principal prioridad las preferencias y necesidad de nuestros usuarios, por lo cual buscamos agilizar la busqueda de destinos para nuestros usuarios.
+   
+7. Contamos con un Análisis inteligente que genera las mejores rutas para nuestros usuarios.
 
 # Por qué elegir NaviTáctil:
 
