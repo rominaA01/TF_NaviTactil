@@ -4,6 +4,7 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 # Autores:
 - Romina Tuesta
 - Frida Dam
+- Katherine Mejia
 
 # Nuestros usuarios principales: 
    1. Personas con discapacidad visual, aquellos que necesiten ayuda de terceros para poder desplazarse por la ciudad.
