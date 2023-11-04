@@ -1,0 +1,178 @@
+
+h1{
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    
+}
+
+@media screen and (max-width:700px){
+    h1{
+        padding-left: 30px;
+        font-size: 38px;
+    }
+    h2{
+        padding-left: 30px;
+        padding-right: 90px;
+        font-size: 15px;
+    }
+} 
+.SecInicio {
+    width:45%;
+    height: 500px;
+    background-color: rgb(227, 231, 231);
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    float: left;
+}
+.SecInicio h2{
+    font-size: 25px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.BtnRegistro{
+    width: 120px;
+    height: 50px;
+    border-color: #000;
+    border: 2px solid;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.ImagenInicio{
+    width: 45%;
+    height: 400px;
+    float: right;
+    background-image: url("C:\Project01\FotoInicio.jpg");
+    background-size: cover; /* Ajusta el tamaño de fondo para cubrir todo el contenedor */
+    background-position: center;
+}
+
+.SecAbtUs {
+    color: white;
+    width:auto ;
+    height: 200px;
+    background-color: rgb(92, 101, 194);
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    padding-top: 100px ;
+    padding-left: 90px;
+    padding-right: 50px;
+    float: left;
+}
+
+.SecAbtUs td:first-child {
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.Beneficios {
+    color: black;
+    width:auto ;
+    height: auto;
+    background-color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 72px;
+    padding-top: 72px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    float: left;
+}
+
+.Bn1, .Bn2, .Bn3 {
+    margin: 10px; /* Espacio entre elementos */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    float: left; /* Coloca los elementos en línea uno al lado del otro */
+    width: calc(33.33% - 20px); /* Calcula el ancho del 33.33% (el -20px compensa el margen) */
+}
+
+.carousel{
+    color: black;
+    width:auto ;
+    height: 400px;
+    background-color: rgba(120, 248, 248, 0.797);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 72px;
+    padding-top: 72px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.resenia1, .resenia2{
+    width: calc(50% - 90px);
+    height: 400px;
+    margin: 35px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.resenia3, .resenia4{
+    display: none;
+    width: calc(50% - 90px);
+    height: 400px;
+    margin: 35px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.nombre{
+    padding-top: 40px;
+    text-align: left;
+    font-size: 28px;
+}
+.comentario{
+    padding-top: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.resenia1 img, .resenia2 img, .resenia3 img, .resenia4 img{
+    width: 135px;
+    height: 150px;
+    float: left;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+.Soporte{
+    width: auto;
+    height: 170px;
+    background-color: white;
+    padding-top: 75px;
+    padding-left: 155px;
+   
+}
+
+.Soporte td:first-child {
+    padding-right: 480px;
+}
+
+.botonSoporte{
+    font-size: 22px;
+}
+    
+
