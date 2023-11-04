@@ -5,6 +5,8 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 - Romina Tuesta
 - Frida Dam
 - André La torre
+- César Vásquez
+- .
 
 ##Nuestros segmentos objetivos:
 1. Personas con discapacidad visual     2. Personas en silla de ruedas
