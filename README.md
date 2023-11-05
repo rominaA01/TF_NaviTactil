@@ -6,6 +6,7 @@ Nuestra app “NaviTáctil”, busca cumplir con la tarea de generar las rutas m
 - Frida Dam
 - Katherine Mejia
 - César Vásquez
+- André La torre
 
 # Nuestros usuarios principales: 
    1. Personas con discapacidad visual, aquellos que necesiten ayuda de terceros para poder desplazarse por la ciudad.
