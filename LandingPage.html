@@ -8,24 +8,62 @@
     <title>NaviTactil</title>
     <link rel="stylesheet" href="styleLP.css">
     <script src="scriptLP.js"> </script>
+    <script src="https://kit.fontawesome.com/8d61719f76.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="ImagenInicio">
-        <img align= "right"
-        src="C:\Project01\Imagenes\FotoInicio.jpg"
-        alt="Imagen de hombre ciego caminando en el parque">
+
+    <div class="Barra">
+        <div class="B1">
+            <img src="C:\Project01\Imagenes\Bn1.png" alt="Icono de mapa" height="60px" width="60px">
+        </div>
+        <div class="B2">
+            <p>Beneficios - Conocenos - Reseñas - APP - Soporte</p>
+        </div>
+        <div class="B3">
+            <p>+51 994 443 212   -   navitac@empresa.com  -  ES
+            </p>
+        </div>
+
     </div>
-  
+    
     <div class="SecInicio">
-        <h1>Creamos un mundo mas inclusivo</h1>
-        <h2>Nuestro equipo se une para lograr que todas las personas
-            se movilicen sin dificultades.
-        </h2>
-        <div class="BtnRegistro">
-            <h1>Registrate</h1>
+        <div class="textoInicio">
+            <h1>Creamos un mundo mas inclusivo</h1>
+            <h2>Nuestro equipo se une para lograr que todas las personas
+                se movilicen sin dificultades.
+            </h2>
+            <input type="button" value="Registrate" onclick="abrirFormulario()" class="BtnRegistro" >
+        </div>
+        
+        <div class="ImagenInicio">
+            <img 
+            src="C:\Project01\Imagenes\FotoInicio.jpg"
+            alt="Imagen de hombre ciego caminando en el parque">
         </div>
     </div>
+
+    <div class="formulario"> 
+        <h2> Registrate </h2>
+        <button class="cerrar" onclick="cerrarFormulario()">X</button>
+        <form>
+            <label for="username">Nombre de usuario:</label> <br>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="confirmPassword">Confirmar contraseña:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+    
+
    <div class="SecAbtUs">
         <table border="0">
             <tr>
@@ -36,10 +74,11 @@
                 </td>
             </tr>
         </table>
-    </div>    
+    </div>        
+  
     
     <div class="Beneficios">
-        <h1>Nuestros beneficios</h1>
+        <h1> Nuestros beneficios</h1>
         <div class="Bn1">
             <img src="C:\Project01\Imagenes\Bn1.png" alt="Icono de mapa">
             <p>TENEMOS LAS MEJORES RUTAS</p>
@@ -62,12 +101,27 @@
 
     </div>
 
-    <div class="carousel">
-        <input type="button" value="<" onclick="Res1()">
+    <div class="VideoAbtUs">
+        <h1>Conócenos</h1>
+        <video width="600" height="400" controls>
+            <source src="C:\Project01\Imagenes\Blue Orange Minimalist Startup Business Intro Youtube Video (1).mp4"
+        </video>
+    </div>
 
+    <div class="resenia">
+        <h1>Reseñas</h1>
+    </div>
+
+    <div class="carousel">
+        
+        
+        <input type="button" value="<" onclick="Res1()" class="botonCarousel">
         <div class="resenia1">
             <img src="C:\Project01\Imagenes\Resenia1.jpg" alt="Foto de Perfil de Maria">
             <p class="nombre">Martina Valle</p>
+            <i class="fa-brands fa-square-facebook fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-instagram fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce fa-lg"></i>
             <p class="comentario">Me encanto esta aplicación. Me ayuda mucho a movilizarme por las calles de Lima, 
                 ya que reduce mucho la cantidad de veredas en mal estado que me encuentro. 
                 ¡Ahora llego a tiempo a todos lados!</p>
@@ -75,6 +129,9 @@
         <div class="resenia2">
             <img src="C:\Project01\Imagenes\Resenia2.jpg" alt="Foto de Perfil de Alejandro">
             <p class="nombre">Alejandro Arias</p>
+            <i class="fa-brands fa-square-facebook fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-instagram fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce fa-lg"></i>
             <p class="comentario">Mi hijo necesita usar silla de ruedas en su vida diaria. Esta aplicación 
                 me permitio encontrar rutas rapidas y adaptadas correctamente para poder transitar con mi hijo. 
                 Además, me encanta ayudar a los demás usuarios reportando las calles en mal estado.</p>
@@ -82,6 +139,9 @@
         <div class="resenia3">
             <img src="C:\Project01\Imagenes\Resenia3.jpg" alt="Foto de Perfil de Julio">
             <p class="nombre">Julio Tolmo</p>
+            <i class="fa-brands fa-square-facebook fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-instagram fa-bounce fa-lg"></i>
+            <i class="fa-brands fa-square-twitter fa-bounce fa-lg"></i>
             <p class="comentario">Esta aplicación es muy util para mi día a día. Una de las funciones que 
                 más me gustó fue el poder avisar sobre los imperfectos de las calles, ya que asi siento que 
                 estoy aportando algo bueno en la sociedad y contribuyendo a un Perú mas inclusivo
@@ -90,23 +150,81 @@
         <div class="resenia4" >
             <img src="C:\Project01\Imagenes\Resenia4.jpg" alt="Foto de Perfil de Martina">
             <p class="nombre">Martina Masas</p>
+            <i class="fa-brands fa-square-facebook fa-bounce fa-lg" ></i>
+            <i class="fa-brands fa-square-instagram fa-bounce fa-lg" ></i>
+            <i class="fa-brands fa-square-twitter fa-bounce fa-lg" ></i>
             <p class="comentario">Ahora que mi abuela usa silla de ruedas, esta app ha cambiado nuestras vidas.
                 Sentimos la tranquilidad de que podemos salir con ella sin que mi abuela sienta que nos dificulta
                 la salida familiar y eso me hace muy feliz!.</p>
         </div>
-        <input type="button" value=">" onclick="Res2()">
+        <input type="button" value=">" onclick="Res2()" class="botonCarousel">
     </div>
 
-    <div class="Soporte">
-        <table border="0">
-            <tr>
-                <td><h1>¿Necesitas Soporte?</h1></td>
-                <td><input type="button" value="Abrir Chat" class="botonSoporte" >
-                </td>
-            </tr>
-        </table>
-    </div>   
+    <div class="app">
+        <h1> Descarga nuestra app</h1>
+        <div class="app1">
+            <a href="https://www.apple.com/la/app-store/"> 
+            <img src="C:\Project01\Imagenes\AppStore.png" alt="Icono de appstore" height="200px" width="200px">
+        </a>
+            <p>Para dispositivos iOS:</p>
+            <p>Haz click en la imagen para descargar nuestra aplicacion
+                en iphones y macbooks.</p>
+        </div>
+        <div class="app2">
+        <a href="https://play.google.com/store/games?hl=es_PE&gl=US&pli=1" >
+            <img src="C:\Project01\Imagenes\GooglePlay.png" alt="Icono de GooglePlay" height="200px" width="200px">
+        </a>
+            <p>Para dispositivos Android:</p>
+            <p>Haz click en la imagen para descargar nuestra aplicacion
+                en celulares o laptops android.</p>
+        </div>
+
+    </div>
+
+    
+<div class="Soporte">
+    <table border="0">
+        <tr>
+            <td><h1>¿Necesitas Soporte?</h1></td>
+            <td>
+                <input type="button" value="Enviar Mensaje" class="botonSoporte" onclick="toggleChatbox()">
+                <div id="chatbox">
+                    <div id="mensaje"></div>
+                    <input type="text" id="mensajeInput" placeholder="Escribe tu mensaje">
+                    <button onclick="enviarMensaje()">Enviar</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="Final">
+    <div class="F1">
+        <img src="C:\Project01\Imagenes\Bn1.png" alt="Icono" height="60px" width="60px">
+        <p>Nuestro startup se preocupa por tener un mundo donde 
+            todos tengan las mismas facilidades de movilizarse 
+            por su propia cuenta.</p>
+        <p>©  2021 id Studio. All Rights Reserved.</p>
+    </div>
+    <div class="F2">
+        <p>NAVIGATION</p>
+        <p>About</p>
+        <p>Beneficios</p>
+        <p>Conocenos</p>
+        <p>Reseñas</p>
+        <p>App</p>
+        <p>Soporte</p>
+    </div>
+    <div class="F3">
+        <p>CONTACTS</p>
+        <p>3517 W. Gray St. Utica, Lima 57867</p>
+        <p>PHONES</p>
+        <p>(808) 555-0111</p>
+    </div>
+
+</div>  
   
+    
 </body> 
     
 </html>
